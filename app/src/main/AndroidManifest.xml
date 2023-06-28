@@ -27,6 +27,7 @@
             android:name=".provider.MyContentProvider"
             android:authorities="com.chichi289.contentproviderdemo"
             android:readPermission="com.chichi289.contentproviderdemo.READ"
+            android:grantUriPermissions="true"
             android:enabled="true"
             android:exported="true" />
     </application>

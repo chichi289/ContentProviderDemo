@@ -3,6 +3,8 @@
 
     <uses-permission android:name="com.chichi289.contentproviderdemo.READ" />
 
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
     <queries>
         <provider android:authorities="com.chichi289.contentproviderdemo" />
     </queries>
